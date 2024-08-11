@@ -1,0 +1,55 @@
+/*utility classes are those which can be used in any element*/
+
+*{/*this class applies to the entire page*/
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.greyText{
+    color: grey;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+.img-1{
+    width: 130px;
+    border-radius: 225px;
+}
+
+.img-2{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.container{
+    height: 100vh;
+}
